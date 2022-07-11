@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
 * rev_string - reverse a string
@@ -11,7 +12,7 @@ void rev_string(char *s)
 
 	len = 0;
 	while (*(s + len) != '\0')
-OBOBOB		len++;
+		len++;
 	len--;
 	for (i = 0; i < len; i++)
 	{
